@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config webpack.config.js --watch --display-error-details --profile"
+    "webpack": "webpack --config webpack.config.js --watch --display-error-details --profile"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "babel-cli": "^6.3.17",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.3.13",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "webpack-traceur-loader": "^0.3.0"
   }
 }

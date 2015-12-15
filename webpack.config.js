@@ -14,12 +14,7 @@ const plugins = [
 ]
 
 const moduleConfig = {
-  loaders: [{
-    test  : /\.jsx?$/
-  , loader: 'babel-loader'
-  , query : { presets: ['es2015']
-    }
-  }]
+  loaders: [{ test: /\.js$/, loader: 'webpack-traceur?runtime&blockBinding' }]
 }
 
 module.exports = {
