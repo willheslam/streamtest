@@ -1,0 +1,22 @@
+{
+  "name": "streamtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js --watch --display-error-details --profile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs-es": "^5.0.0-beta.0"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "webpack": "^1.12.9"
+  }
+}
